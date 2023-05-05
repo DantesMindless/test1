@@ -33,6 +33,7 @@ text-decoration: none;
 .navbar{
     background-color: #282d32;
     
+    
 }
 .navbar-nav{
     margin-left: 5.2rem;
@@ -198,4 +199,14 @@ margin-bottom: 3rem;
     left: 0;
     top: 0;
     position: absolute;
+  }.navbar-toggler{
+  margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+@media (max-width:991px) {
+    .navbar-nav {
+      text-align:center;
+      margin-left:0;
+    }
   }
